@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ecole\\OOP2\\Module 12 - Patrons de conception 03\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Client_SQL_Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Ecole\\OOP2\\Module 12 - Patrons de conception 03\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Client_SQL_Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ecole\\OOP2\\Module 12 - Patrons de conception 03\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Client_SQL_Server.csproj",
+        "projectName": "DAL_Client_SQL_Server",
+        "projectPath": "C:\\Ecole\\OOP2\\Module 12 - Patrons de conception 03\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Client_SQL_Server.csproj",
+        "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
+        "outputPath": "C:\\Ecole\\OOP2\\Module 12 - Patrons de conception 03\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
