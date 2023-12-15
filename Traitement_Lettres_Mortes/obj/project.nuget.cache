@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PnvTIWFhDRhh6UtpXUf3g+zvXA+gdQC/xPdPVAlf1XxYq/OmEnxilu9LAyn1IRr326/dwerngyE9NmVxOJ9u8A==",
+  "dgSpecHash": "SfJk9sDRXhg7VQpALAZuo8OaIyDrvs1fnanjXs3lstNX4Sfm0ms0akMOZ+cAWH4FJPXF0sHiNnIY5LcdWhZXkw==",
   "success": true,
-  "projectFilePath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
+  "projectFilePath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

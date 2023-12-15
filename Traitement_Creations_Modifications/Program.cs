@@ -24,10 +24,10 @@ namespace Traitement_Creations_Modifications
                 ("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking).Options);
 
             IDepotCompteBancaire depotCompteBancaire = new DepotCompteBancaireSQL(m_Dbcontext);
-            ManipulationCompteBancaire manipulationCompteBancaire = new ManipulationCompteBancaire(new DepotCompteBancaireSQL(m_Dbcontext));
+            ManipulationCompteBancaire manipulationCompteBancaire = new ManipulationCompteBancaire(depotCompteBancaire);
 
             IDepotTransaction depotTransaction = new DepotTransactionSQL(m_Dbcontext);
-            ManipulationTransaction manipulationTransaction = new ManipulationTransaction(new DepotTransactionSQL(m_Dbcontext));
+            ManipulationTransaction manipulationTransaction = new ManipulationTransaction(depotTransaction);
 
             ConnectionFactory factory = new ConnectionFactory() { HostName = "localhost" };
             using (IConnection connexion = factory.CreateConnection())
@@ -44,36 +44,33 @@ namespace Traitement_Creations_Modifications
                         byte[] donnees = ea.Body.ToArray();
                         string enveloppe = Encoding.UTF8.GetString(donnees);
 
-                        try
+
+                        EnveloppeCompteBancaire enveloppeRecu = JsonConvert.DeserializeObject<EnveloppeCompteBancaire>(enveloppe);
+                        Console.Out.WriteLine("Enveloppe recu !");
+
+                        if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Compte")
                         {
-                            EnveloppeCompteBancaire enveloppeRecu = JsonConvert.DeserializeObject<EnveloppeCompteBancaire>(enveloppe);
-                            Console.Out.WriteLine("Enveloppe recu !");
+                            Console.Out.WriteLine("Action Create !");
+                            manipulationCompteBancaire.AddCompte(enveloppeRecu.CompteBancaire);
 
-                            if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionId == "Compte")
-                            {
-                                Console.Out.WriteLine("Action Create !");
-                                manipulationCompteBancaire.AddCompte(enveloppeRecu.CompteBancaire);
-                                
-                            }
-                            else if (enveloppeRecu.Action == "Update" && enveloppeRecu.ActionId == "Compte")
-                            {
-                                Console.Out.WriteLine("Action Update !");
-                                manipulationCompteBancaire.UpdateCompte(enveloppeRecu.CompteBancaire);
-                            }
-
-                            else if(enveloppeRecu.Action == "Create" && enveloppeRecu.ActionId == "Transaction")
-                            {
-                                Console.Out.WriteLine("Action Create !");
-                                manipulationTransaction.AddTransaction(enveloppeRecu.Transaction);
-
-                            }
                         }
-                        catch (Exception ex)
+                        else if (enveloppeRecu.Action == "Update" && enveloppeRecu.ActionEntity == "Compte")
                         {
-                            Console.Out.WriteLine("Error during deserialization: " + ex.Message);
-                            DeadLetterTraitement(enveloppe);
+                            Console.Out.WriteLine("Action Update !");
+                            manipulationCompteBancaire.UpdateCompte(enveloppeRecu.CompteBancaire);
                         }
 
+                        else if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Transaction")
+                        {
+                            Console.Out.WriteLine("Action Create !");
+                            manipulationTransaction.AddTransaction(enveloppeRecu.Transaction);
+                        }
+                        else 
+                        {
+                            Console.Out.WriteLine("Action inconnue !");
+                            DeadLetterTraitement(donnees);
+                        }
+                        
 
                         channel.BasicAck(ea.DeliveryTag, false);
                     };

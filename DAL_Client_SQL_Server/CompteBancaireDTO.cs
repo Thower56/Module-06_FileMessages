@@ -17,17 +17,14 @@ namespace DAL_Compte_Bancaire_SQL_Server
 
         [Column("TypeCompte")]
         public string Type { get; set; } = "Courant";
-        public CompteBancaireDTO(int p_Id, string p_Type)
+        public CompteBancaireDTO(string p_Type)
         {
-            Id = p_Id;
             Type = p_Type;
         }
 
         public CompteBancaireDTO(CompteBancaire p_compte)
         {
-            Id = p_compte.Id;
             Type = p_compte.Type;
-
         }
 
         public CompteBancaireDTO()
@@ -41,7 +38,7 @@ namespace DAL_Compte_Bancaire_SQL_Server
 
         public CompteBancaire ToEntity()
         {
-            return new CompteBancaire(Id, Type);
+            return new CompteBancaire(Type);
         }
     }
 }

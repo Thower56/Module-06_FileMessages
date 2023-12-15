@@ -9,17 +9,6 @@ C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un com
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.deps.json
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.GeneratedMSBuildEditorConfig.editorconfig
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfoInputs.cache
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfo.cs
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.csproj.CoreCompileInputs.cache
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.dll
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
-C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.deps.json
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
@@ -31,3 +20,25 @@ C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
 C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.deps.json
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfoInputs.cache
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfo.cs
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.csproj.CoreCompileInputs.cache
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.deps.json
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfoInputs.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfo.cs
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.csproj.CoreCompileInputs.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll

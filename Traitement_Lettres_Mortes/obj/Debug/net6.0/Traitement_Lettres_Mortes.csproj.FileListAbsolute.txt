@@ -12,3 +12,37 @@ C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un com
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.pdb
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.genruntimeconfig.cache
 C:\Ecole\OOP2\Module 12 - Patrons de conception 03\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\ref\Traitement_Lettres_Mortes.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.exe
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.AssemblyReference.cache
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfoInputs.cache
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfo.cs
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CoreCompileInputs.cache
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CopyComplete
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\refint\Traitement_Lettres_Mortes.dll
+C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.exe
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.deps.json
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.runtimeconfig.json
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.AssemblyReference.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfoInputs.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfo.cs
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CoreCompileInputs.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CopyComplete
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\refint\Traitement_Lettres_Mortes.dll
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.pdb
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.genruntimeconfig.cache
+C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\ref\Traitement_Lettres_Mortes.dll

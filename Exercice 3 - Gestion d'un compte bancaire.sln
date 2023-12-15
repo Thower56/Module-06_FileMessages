@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCompteBancaire", "ApiCompteBancaire\ApiCompteBancaire.csproj", "{0851E683-8EC2-484E-8405-E31075E72E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCompteBancaire", "ApiCompteBancaire\ApiCompteBancaire.csproj", "{0851E683-8EC2-484E-8405-E31075E72E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traitement_Creations_Modifications", "Traitement_Creations_Modifications\Traitement_Creations_Modifications.csproj", "{5484D866-33B7-4C33-8F08-057387CB8838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traitement_Creations_Modifications", "Traitement_Creations_Modifications\Traitement_Creations_Modifications.csproj", "{5484D866-33B7-4C33-8F08-057387CB8838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traitement_Lettres_Mortes", "Traitement_Lettres_Mortes\Traitement_Lettres_Mortes.csproj", "{FE0ECC72-C5C0-4C68-B5F2-C53521EDA442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traitement_Lettres_Mortes", "Traitement_Lettres_Mortes\Traitement_Lettres_Mortes.csproj", "{FE0ECC72-C5C0-4C68-B5F2-C53521EDA442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Compte_Bancaire_SQL_Server", "DAL_Client_SQL_Server\DAL_Compte_Bancaire_SQL_Server.csproj", "{94770E9D-E48E-40F8-9571-A04B99D4D62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL_Compte_Bancaire_SQL_Server", "DAL_Client_SQL_Server\DAL_Compte_Bancaire_SQL_Server.csproj", "{94770E9D-E48E-40F8-9571-A04B99D4D62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity_Compte_Bancaire", "Entity_Compte_Bancaire\Entity_Compte_Bancaire.csproj", "{1EB6C126-C763-4F32-AA81-946BC19366C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity_Compte_Bancaire", "Entity_Compte_Bancaire\Entity_Compte_Bancaire.csproj", "{1EB6C126-C763-4F32-AA81-946BC19366C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwaggerClient", "NSwaggerClient\NSwaggerClient.csproj", "{95F69103-997D-4415-ABB6-3986DBFF3E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1EB6C126-C763-4F32-AA81-946BC19366C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB6C126-C763-4F32-AA81-946BC19366C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB6C126-C763-4F32-AA81-946BC19366C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

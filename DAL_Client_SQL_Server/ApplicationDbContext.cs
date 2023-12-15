@@ -26,6 +26,7 @@ namespace DAL_Compte_Bancaire_SQL_Server
             {
                 throw new InvalidOperationException("Une transaction est deja debutee");
             }
+            m_transaction = this.Database.BeginTransaction();
         }
         public void Commit()
         {

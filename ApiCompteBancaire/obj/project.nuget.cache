@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5M4gSWt5mmf3TBimttvieXP2sPH+lUcTQ/Z3UqLFEyV53uDpk/s7kaFC03Snjty2KcAksLNGyHWPiF4ZOg61zA==",
+  "dgSpecHash": "40tEFKN7KZ61NtX3Zo0VvWSeCii2ruFuVnooT2khTJtJZZIaeiT+OUE4uqUBeuFzsAkFkW9cZTMvQ0qAGxWzZQ==",
   "success": true,
-  "projectFilePath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\ApiCompteBancaire\\ApiCompteBancaire.csproj",
+  "projectFilePath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\ApiCompteBancaire\\ApiCompteBancaire.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -144,11 +144,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
+      "projectUniqueName": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
       "projectName": "Traitement_Lettres_Mortes",
-      "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
+      "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Lettres_Mortes\\Traitement_Lettres_Mortes.csproj",
       "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Lettres_Mortes\\obj\\",
+      "outputPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Lettres_Mortes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,8 +165,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
-              "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
+            "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
+              "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
             }
           }
         }

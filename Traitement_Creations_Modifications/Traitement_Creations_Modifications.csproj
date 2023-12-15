@@ -16,4 +16,10 @@
     <ProjectReference Include="..\DAL_Client_SQL_Server\DAL_Compte_Bancaire_SQL_Server.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

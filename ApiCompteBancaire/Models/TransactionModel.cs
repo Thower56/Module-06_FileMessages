@@ -23,6 +23,10 @@ namespace ApiCompteBancaire.Models
             Date = p_transaction.Date;
         }
 
+        public TransactionModel()
+        {
+        }
+
         public override string ToString()
         {
             return "Transaction - Id : " + Id + " Type : " + type + " Montant : " + Montant + " Date : " + Date;

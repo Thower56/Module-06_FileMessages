@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5G9n8Ccu/vtSuRVNma2p5UzCGhECl9b9MgdA4jIQHuSpK4rUGW2OVVKQAe7ugl1uZLuw/XfISystWLoHFpYUnQ==",
+  "dgSpecHash": "OyKrYAaqJSs6GAaMids0p+WqLS6AzJ6HdXfMBAJqKc4L+XvNegEjEAhLFXPDbgEzKmf8QSF1FXRcol2Z9tfhSQ==",
   "success": true,
-  "projectFilePath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
+  "projectFilePath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

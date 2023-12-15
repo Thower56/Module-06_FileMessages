@@ -11,12 +11,15 @@ namespace Entity_Compte_Bancaire
         public int Id { get; set; }
         public string Type { get; set; } = "Courant";
         public IEnumerable<Transaction>? Transactions { get; set; }
-        public CompteBancaire(int p_Id, string p_Type)
+        public CompteBancaire(string p_Type)
         {
-            Id = p_Id;
             Type = p_Type;
         }
-        
+
+        public CompteBancaire()
+        {
+        }
+
         public override string ToString()
         {
             string Compte = "Compte - Id : " + Id + " Courant : " + Type;

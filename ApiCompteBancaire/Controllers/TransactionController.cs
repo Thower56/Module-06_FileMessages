@@ -6,7 +6,7 @@ using Traitement_Creations_Modifications;
 
 namespace ApiTransactionController.Controllers
 {
-    [Route("api/CompteBancaire/{CompteId}/Transactions/{TransactionId}")]
+    [Route("api/CompteBancaire/{CompteId}/Transactions/")]
     [ApiController]
     public class TransactionController : ControllerBase
     {
@@ -16,20 +16,22 @@ namespace ApiTransactionController.Controllers
         {
             m_manipulationTransaction = p_manipulationTransaction;
         }
+
         [HttpGet]
         [ProducesResponseType(200)]
-        public ActionResult<IEnumerable<TransactionModel>> Get()
+        public ActionResult<IEnumerable<TransactionModel>> Get(int CompteId)
         {
-            return Ok(m_manipulationTransaction.GetTransactions().Select(t => new TransactionModel(t)).ToList());
+            return Ok(m_manipulationTransaction.GetTransactions().Where(t => t.CompteBancaireId == CompteId).Select(t => new TransactionModel(t)).ToList());
         }
 
         [HttpGet("{Id}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
-        public ActionResult<CompteBancaireModel> Get(int Id)
+        public ActionResult<CompteBancaireModel> Get(int CompteId, int Id)
         {
+
             TransactionModel transaction = new TransactionModel(m_manipulationTransaction.GetTransaction(Id));
-            if (transaction != null)
+            if (transaction != null || transaction.CompteBancaireId == CompteId)
             {
                 return Ok(transaction);
             }
@@ -38,23 +40,27 @@ namespace ApiTransactionController.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(201)]
+        [ProducesResponseType(202)]
         [ProducesResponseType(400)]
-        public ActionResult Post([FromBody] TransactionModel p_TransactionModel)
+        public ActionResult Post(int CompteId, [FromBody] TransactionModel p_TransactionModel)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
-            EnveloppeCompteBancaire enveloppe = new EnveloppeCompteBancaire("Create", "Transaction", null, p_TransactionModel.ToEntity());
-            DataTransmission.Traitement(enveloppe);
+            if (p_TransactionModel.CompteBancaireId == CompteId)
+            {
+                EnveloppeCompteBancaire enveloppe = new EnveloppeCompteBancaire("Create", "Transaction", null, p_TransactionModel.ToEntity());
+                DataTransmission.Traitement(enveloppe);
+            }
+            
             //m_manipulationTransaction.AddTransaction(p_TransactionModel.ToEntity());
-            return CreatedAtAction(nameof(Get), new { id = p_TransactionModel.Id }, p_TransactionModel);
+            return Accepted();
         }
 
-
+        [HttpPut("{Id}")]
         [ProducesResponseType(403)]
-        public ActionResult Put(int TransactionId, [FromBody] TransactionModel p_TransactionModel)
+        public ActionResult Put(int Id, [FromBody] TransactionModel p_TransactionModel)
         {
             return Forbid();
         }

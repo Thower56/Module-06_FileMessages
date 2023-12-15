@@ -20,7 +20,13 @@ namespace DAL_Client_SQL_Server
 
         public CompteBancaire GetCompte(int id)
         {
-            return m_Dbcontext.CompteBancaire.Where(c => c.Id == id).FirstOrDefault().ToEntity();
+            CompteBancaireDTO compte = m_Dbcontext.CompteBancaire.Where(c => c.Id == id).FirstOrDefault();
+            if (compte is not null)
+            {
+                return compte.ToEntity();
+            }
+
+            return null;
         }
 
         public IEnumerable<CompteBancaire> GetComptes()

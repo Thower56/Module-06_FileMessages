@@ -11,7 +11,7 @@ using System.Text;
 namespace ApiCompteBancaire.Controllers
 {
 
-    [Route("api/CompteBancaire/{CompteId}")]
+    [Route("api/CompteBancaire/")]
     [ApiController]
     public class CompteBancaireController : ControllerBase
     {
@@ -43,7 +43,7 @@ namespace ApiCompteBancaire.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(201)]
+        [ProducesResponseType(202)]
         [ProducesResponseType(400)]
         public ActionResult Post([FromBody] CompteBancaireModel p_CompteBancaire)
         {
@@ -55,7 +55,7 @@ namespace ApiCompteBancaire.Controllers
             EnveloppeCompteBancaire enveloppe = new EnveloppeCompteBancaire("Create", "Compte", p_CompteBancaire.ToEntity(), null);
             DataTransmission.Traitement(enveloppe);
 
-            return CreatedAtAction(nameof(Get), new { id = p_CompteBancaire.Id }, p_CompteBancaire);
+            return Accepted();
         }
 
         [HttpPut("{Id}")]
