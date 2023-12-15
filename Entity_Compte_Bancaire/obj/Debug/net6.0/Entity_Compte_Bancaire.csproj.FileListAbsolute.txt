@@ -20,3 +20,14 @@ C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_B
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.deps.json
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfoInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.AssemblyInfo.cs
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.csproj.CoreCompileInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\refint\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\Entity_Compte_Bancaire\obj\Debug\net6.0\ref\Entity_Compte_Bancaire.dll

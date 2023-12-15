@@ -28,3 +28,18 @@ C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\DAL_Client_SQL_
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\DAL_Client_SQL_Server\obj\Debug\net6.0\refint\DAL_Compte_Bancaire_SQL_Server.dll
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.pdb
 C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\DAL_Client_SQL_Server\obj\Debug\net6.0\ref\DAL_Compte_Bancaire_SQL_Server.dll
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\bin\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.deps.json
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\bin\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.dll
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\bin\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.csproj.AssemblyReference.cache
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.AssemblyInfoInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.AssemblyInfo.cs
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.csproj.CoreCompileInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.csproj.CopyComplete
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.dll
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\refint\DAL_Compte_Bancaire_SQL_Server.dll
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\DAL_Compte_Bancaire_SQL_Server.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\obj\Debug\net6.0\ref\DAL_Compte_Bancaire_SQL_Server.dll

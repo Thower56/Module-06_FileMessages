@@ -2473,11 +2473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
+      "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
       "projectName": "Traitement_Creations_Modifications",
-      "projectPath": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
+      "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
       "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Creations_Modifications\\obj\\",
+      "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Creations_Modifications\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2494,8 +2494,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {
-              "projectPath": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj"
+            "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {
+              "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj"
             }
           }
         }
