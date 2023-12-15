@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DAL_Compte_Bancaire_SQL_Server
-build_property.ProjectDir = C:\Ecole\Session4\DSDD\Exercice 3 - Gestion d'un compte bancaire\DAL_Client_SQL_Server\
+build_property.ProjectDir = C:\Session4\Distrubution\Module-06_FileMessages\DAL_Client_SQL_Server\

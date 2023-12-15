@@ -28,6 +28,8 @@ namespace ApiCompteBancaire
             builder.Services.AddScoped<IDepotCompteBancaire, DepotCompteBancaireSQL>();
             builder.Services.AddScoped<IDepotTransaction, DepotTransactionSQL>();
 
+            builder.Services.AddSwaggerDocument();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -46,6 +48,9 @@ namespace ApiCompteBancaire
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseAuthentication();
             app.UseAuthorization();

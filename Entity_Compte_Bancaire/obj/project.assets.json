@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
+      "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
       "projectName": "Entity_Compte_Bancaire",
-      "projectPath": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
+      "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
       "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Ecole\\Session4\\DSDD\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\obj\\",
+      "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
