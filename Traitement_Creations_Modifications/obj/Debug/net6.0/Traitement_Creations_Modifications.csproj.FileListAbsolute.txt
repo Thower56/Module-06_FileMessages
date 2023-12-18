@@ -274,3 +274,4 @@ C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Creations_Modifications\
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Creations_Modifications\obj\Debug\net6.0\Traitement_Creations_Modifications.pdb
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Creations_Modifications\obj\Debug\net6.0\Traitement_Creations_Modifications.genruntimeconfig.cache
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Creations_Modifications\obj\Debug\net6.0\ref\Traitement_Creations_Modifications.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Creations_Modifications\bin\Debug\net6.0\appsettings.json

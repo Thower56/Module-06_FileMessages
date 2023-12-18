@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {}
+    "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {}
   },
   "projects": {
-    "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {
+    "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
+        "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
         "projectName": "DAL_Compte_Bancaire_SQL_Server",
-        "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
+        "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
         "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\obj\\",
+        "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
-                "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
+              "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
+                "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
+    "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
+        "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
         "projectName": "Entity_Compte_Bancaire",
-        "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
+        "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj",
         "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\obj\\",
+        "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",

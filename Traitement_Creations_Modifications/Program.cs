@@ -19,6 +19,18 @@ namespace Traitement_Creations_Modifications
         private static ManualResetEvent waitHandle = new ManualResetEvent(false);
         static void Main(string[] args)
         {
+            Console.WriteLine(@"
+
+█─▄─▄─█▄─▄▄▀██▀▄─██▄─▄█─▄─▄─█▄─▄▄─█▄─▀█▀─▄█▄─▄▄─█▄─▀█▄─▄█─▄─▄─█
+███─████─▄─▄██─▀─███─████─████─▄█▀██─█▄█─███─▄█▀██─█▄▀─████─███
+▀▀▄▄▄▀▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▀▀▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▄▄▄▀▄▄▄▄▄▀▄▄▄▀▀▄▄▀▀▄▄▄▀▀
+█─▄▄▄─█▄─▄▄▀█▄─▄▄─██▀▄─██─▄─▄─█▄─▄█─▄▄─█▄─▀█▄─▄█
+█─███▀██─▄─▄██─▄█▀██─▀─████─████─██─██─██─█▄▀─██
+▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▄▄▄▄▀▄▄▄▀▀▄▄▀
+█▄─▀█▀─▄█─▄▄─█▄─▄▄▀█▄─▄█▄─▄▄─█▄─▄█─▄▄▄─██▀▄─██─▄─▄─█▄─▄█─▄▄─█▄─▀█▄─▄█
+██─█▄█─██─██─██─██─██─███─▄████─██─███▀██─▀─████─████─██─██─██─█▄▀─██
+▀▄▄▄▀▄▄▄▀▄▄▄▄▀▄▄▄▄▀▀▄▄▄▀▄▄▄▀▀▀▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▀▄▄▄▀▀▄▄▄▀▄▄▄▄▀▄▄▄▀▀▄▄▀");
+
             IConfigurationRoot config = new ConfigurationBuilder().SetBasePath(Directory.GetParent(AppContext.BaseDirectory)!.FullName).AddJsonFile("appsettings.json").Build();
             ApplicationDbContext m_Dbcontext = new ApplicationDbContext(new DbContextOptionsBuilder<ApplicationDbContext>().UseSqlServer(config.GetConnectionString
                 ("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking).Options);
@@ -44,33 +56,43 @@ namespace Traitement_Creations_Modifications
                         byte[] donnees = ea.Body.ToArray();
                         string enveloppe = Encoding.UTF8.GetString(donnees);
 
-
-                        EnveloppeCompteBancaire enveloppeRecu = JsonConvert.DeserializeObject<EnveloppeCompteBancaire>(enveloppe);
-                        Console.Out.WriteLine("Enveloppe recu !");
-
-                        if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Compte")
+                        try
                         {
-                            Console.Out.WriteLine("Action Create !");
-                            manipulationCompteBancaire.AddCompte(enveloppeRecu.CompteBancaire);
+                            EnveloppeCompteBancaire enveloppeRecu = JsonConvert.DeserializeObject<EnveloppeCompteBancaire>(enveloppe);
+                            Console.Out.WriteLine("Enveloppe recu !");
 
+                            if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Compte")
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Out.WriteLine("Compte Create !");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                manipulationCompteBancaire.AddCompte(enveloppeRecu.CompteBancaire);
+
+                            }
+                            else if (enveloppeRecu.Action == "Update" && enveloppeRecu.ActionEntity == "Compte")
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Out.WriteLine("Compte Update !");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                manipulationCompteBancaire.UpdateCompte(enveloppeRecu.CompteBancaire);
+                            }
+
+                            else if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Transaction")
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.Out.WriteLine("Transaction Creer !");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                manipulationTransaction.AddTransaction(enveloppeRecu.Transaction);
+                            }
                         }
-                        else if (enveloppeRecu.Action == "Update" && enveloppeRecu.ActionEntity == "Compte")
+                        catch (Exception e)
                         {
-                            Console.Out.WriteLine("Action Update !");
-                            manipulationCompteBancaire.UpdateCompte(enveloppeRecu.CompteBancaire);
-                        }
-
-                        else if (enveloppeRecu.Action == "Create" && enveloppeRecu.ActionEntity == "Transaction")
-                        {
-                            Console.Out.WriteLine("Action Create !");
-                            manipulationTransaction.AddTransaction(enveloppeRecu.Transaction);
-                        }
-                        else 
-                        {
-                            Console.Out.WriteLine("Action inconnue !");
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Out.WriteLine($"Action inconnue: {e.Message}!");
+                            Console.ForegroundColor = ConsoleColor.White;
                             DeadLetterTraitement(donnees);
                         }
-                        
+
 
                         channel.BasicAck(ea.DeliveryTag, false);
                     };

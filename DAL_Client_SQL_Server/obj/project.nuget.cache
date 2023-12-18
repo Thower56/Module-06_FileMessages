@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "so8toTg+WZoX0PuO4f9KcYZt2/NwA4jEHH2/4qTTyelTAbyzqPHT8XLGKwqe8nhY3dAel6jRZu4BB55NL6AYPA==",
+  "dgSpecHash": "k0pO8ANP1iaB/hc7ZMyyvEHWocE7oNOUJ45YNn/TlZWaWPzV8zaQN4pElUxvLE1z9MSeANiHHHrIAz4mKEQ/xg==",
   "success": true,
-  "projectFilePath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
+  "projectFilePath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\DAL_Client_SQL_Server\\DAL_Compte_Bancaire_SQL_Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

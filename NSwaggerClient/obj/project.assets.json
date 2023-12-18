@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Exercice 3 - Gestion d'un compte bancaire\\NSwaggerClient\\NSwaggerClient.csproj",
+      "projectUniqueName": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\NSwaggerClient\\NSwaggerClient.csproj",
       "projectName": "NSwaggerClient",
-      "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\NSwaggerClient\\NSwaggerClient.csproj",
+      "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\NSwaggerClient\\NSwaggerClient.csproj",
       "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-      "outputPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\NSwaggerClient\\obj\\",
+      "outputPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\NSwaggerClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
-              "projectPath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
+            "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj": {
+              "projectPath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Entity_Compte_Bancaire\\Entity_Compte_Bancaire.csproj"
             }
           }
         }

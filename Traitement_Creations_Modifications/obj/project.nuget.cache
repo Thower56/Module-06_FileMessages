@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2GkuVi34eaoSbj6G7ZrIBORRn/qPC/kGxqLkJKJxU9pJFGVorKUFwa+Hhk1ggMwOh4jeHAI9bc+fBPDC+eV+Q==",
+  "dgSpecHash": "WgCf4K/nKPfOdqu0ZXNuFFVMFZitZRb9f8GvpWw4p4EFUnIS9PzHbECnOmZRAA13NUKM7ydBUu739cVL1xWtzA==",
   "success": true,
-  "projectFilePath": "C:\\Exercice 3 - Gestion d'un compte bancaire\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
+  "projectFilePath": "C:\\Session4\\Distrubution\\Module-06_FileMessages\\Traitement_Creations_Modifications\\Traitement_Creations_Modifications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

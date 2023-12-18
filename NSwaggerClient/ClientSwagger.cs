@@ -1147,9 +1147,9 @@ namespace MyNamespace
         [Newtonsoft.Json.JsonProperty("id", Required = Newtonsoft.Json.Required.Always)]
         public int Id { get; set; }
 
-        [Newtonsoft.Json.JsonProperty("type", Required = Newtonsoft.Json.Required.Always)]
+        [Newtonsoft.Json.JsonProperty("transactionType", Required = Newtonsoft.Json.Required.Always)]
         [System.ComponentModel.DataAnnotations.Required(AllowEmptyStrings = true)]
-        public string Type { get; set; }
+        public string TransactionType { get; set; }
 
         [Newtonsoft.Json.JsonProperty("montant", Required = Newtonsoft.Json.Required.Always)]
         public decimal Montant { get; set; }

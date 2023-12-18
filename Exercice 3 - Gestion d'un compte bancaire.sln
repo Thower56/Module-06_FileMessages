@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL_Compte_Bancaire_SQL_Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity_Compte_Bancaire", "Entity_Compte_Bancaire\Entity_Compte_Bancaire.csproj", "{1EB6C126-C763-4F32-AA81-946BC19366C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwaggerClient", "NSwaggerClient\NSwaggerClient.csproj", "{95F69103-997D-4415-ABB6-3986DBFF3E6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSwaggerClient", "NSwaggerClient\NSwaggerClient.csproj", "{95F69103-997D-4415-ABB6-3986DBFF3E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarbageMaker", "GarbageMaker\GarbageMaker.csproj", "{88F5B02D-36B2-4CA8-AC04-370847AC637D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F69103-997D-4415-ABB6-3986DBFF3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F5B02D-36B2-4CA8-AC04-370847AC637D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F5B02D-36B2-4CA8-AC04-370847AC637D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F5B02D-36B2-4CA8-AC04-370847AC637D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F5B02D-36B2-4CA8-AC04-370847AC637D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

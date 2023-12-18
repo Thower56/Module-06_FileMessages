@@ -46,3 +46,23 @@ C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.pdb
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.genruntimeconfig.cache
 C:\Exercice 3 - Gestion d'un compte bancaire\Traitement_Lettres_Mortes\obj\Debug\net6.0\ref\Traitement_Lettres_Mortes.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.exe
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.deps.json
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.runtimeconfig.json
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Traitement_Lettres_Mortes.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\System.Threading.Channels.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\bin\Debug\net6.0\Entity_Compte_Bancaire.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.AssemblyReference.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfoInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.AssemblyInfo.cs
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CoreCompileInputs.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.csproj.CopyComplete
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\refint\Traitement_Lettres_Mortes.dll
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.pdb
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\Traitement_Lettres_Mortes.genruntimeconfig.cache
+C:\Session4\Distrubution\Module-06_FileMessages\Traitement_Lettres_Mortes\obj\Debug\net6.0\ref\Traitement_Lettres_Mortes.dll
